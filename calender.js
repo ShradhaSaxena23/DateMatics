@@ -48,14 +48,16 @@ function showDate2() {
     localeMatcher: 'lookup',
     timeZone: 'Asia/Kolkata', 
 };
+//javascript code for current date
 
-function today(){
+/*function today(){
 const today = new Date();
 const formattedDate1 = new Intl.DateTimeFormat("hi-IN", optionsHindi1).format(today);
 document.getElementById('today').innerHTML ="Today : "+ formattedDate1;
 
 }
 window.onload = today;
+*/
 
 
 
