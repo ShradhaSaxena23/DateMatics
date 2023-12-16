@@ -1,0 +1,136 @@
+body{
+    box-sizing: border-box;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:90vh;
+    border-color: white;
+    background-image: linear-gradient(to right, black, rgb(51, 0, 255),indigo);
+    }
+    
+
+    #opr-options span{
+        height:10px;
+    }
+    #opr-options {
+        display: flex;
+        flex-direction: row;
+    }
+    #opr-options label{
+        margin-top: 12px;
+    }
+
+    
+
+.main{
+    
+   background-color: black;
+   color:white;
+   opacity: 90%;
+    font-size: larger;
+    width:400px;
+    height:700px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   box-shadow: 0 0 15px 15px rgba(55, 161, 242, 0.904);
+}
+
+.wrap-up{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#startdate{
+font-size: 20px;
+}
+
+
+
+
+#durationType{
+   
+    height:55px;
+    margin-top: 25px;
+    width: 80px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 90px;
+ 
+}
+#durationValue{
+    width:200px;
+    height:50px;
+    margin-top: 25px;
+    
+
+   
+}
+#operation{
+    width:100px;
+    height:40px;
+    border-radius: 15px;
+    
+}
+#duration{
+    font-size: 25px;
+    margin-left:-5px;
+    margin-top:15px;
+   
+}
+
+.wrap-up div{
+    height:100px;
+    width:100px;
+    display:grid;
+    margin:10px;
+    
+}
+
+#firstinput{
+    color:white;
+    
+}
+
+input{
+    height:40px;
+    width:300px;
+    border-radius: 15px;
+   
+}
+
+form label{
+font-size: 30px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color:white;
+padding-bottom: 10px;
+}
+
+form{
+    border-radius: 22px;
+    border-color: white;
+    width:300px
+
+}
+button{
+    height:30px;
+    width:200px;
+    margin:50px;
+    cursor:pointer;
+    border-radius: 17px;
+    font-size: 20px;
+    margin-top: 0;
+}
+#result{
+    margin-top: -26px;
+
+    color:white;
+}
+#today{
+    position:absolute;
+    top:80px;
+    
+}

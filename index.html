@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DateMatics</title>
+    <link rel="stylesheet" href="calender.css">
+</head>
+<body>
+    <script src="calender.js"></script>
+   
+    <div class="main">
+       
+        <form>
+            
+            <div>
+                 
+                <label>Start Date </label><br>
+               
+                <input type="date" onchange="showDate()" id="startDate">
+                <br>
+                <div style="color:yellow;"  id="firstinput">
+
+                </div>
+
+                <div><br></div>
+                <label>End Date </label><br>
+               
+                <input type="date" onchange="showDate2()" id="secondDate">
+                <br>
+                <div style="color:orange;" id="secondinput">
+
+                </div>
+
+                <div><br></div>
+                <label >Operation </label><br>
+                <span id="opr-options">
+                    <input type="radio" id="add" name="fav_language" value="Add" style="height:41px; width:30px; margin-top:8px;  ">
+                    <label for="add">Add</label>
+                    <input type="radio" id="subtract" name="fav_language" value="Subtract" style="height:41px; width:30px; margin-top:8px; ">
+                    <label for="subtract">Subtract</label>
+                </span>
+
+                <!--<select id="operation">
+                    <option value="add">Add</option>
+                    <option value="subtract">Subtract</option>
+                </select>-->
+
+                <div class="wrap-up">
+                    <div >
+                        
+                        <input type="number" id="durationValue" min="0" placeholder="Please enter a value">
+                      </div>
+                    <div>
+                        <select id="durationType">
+                            <option value="days">Days</option>
+                            <option value="months">Months</option>
+                            <option value="weeks">Weeks</option>
+                            <option value="years">Years</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <button type="button" onclick="output()">Submit</button>
+        </form>
+
+        <div style="color:skyblue;" id="result"></div>
+        <div id="today" ><div>
+       
+    </div>
+</body>
+
+</html>
